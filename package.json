@@ -1,0 +1,21 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "a cooking recipes app",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Ira Kriachko",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/core": "^2.9.3",
+    "@parcel/transformer-sass": "^2.9.3",
+    "parcel": "^2.9.3"
+  },
+  "dependencies": {
+    "core-js": "^3.33.0",
+    "regenerator-runtime": "^0.14.0"
+  }
+}
